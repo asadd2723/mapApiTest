@@ -12,7 +12,7 @@ const MapComponent = ({ apiKey }) => {
   const [location, setLocation] = useState("");
   const [status, setStatus] = useState(null);
   const [coordinates, setCoordinates] = useState(null);
-  
+
   useEffect(() => {
     fetch(`https://maps.googleapis.com/maps/api/geocode/json?address=Bernal&key=${apiKey}`)
       .then(response => response.json())
