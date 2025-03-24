@@ -23,7 +23,7 @@ const MapComponent = ({ apiKey }) => {
   }, []);
   const checkAPIKey = async () => {
     if (!location) {
-      setStatus("⚠️ Please enter a location.");
+      setStatus("⚠️ Please enter a location...............");
       return;
     }
 
